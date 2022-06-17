@@ -255,7 +255,7 @@ h6{
 	width: 300px;
 	background-color: var(--previewBg);
 	border-radius: 50% 20% / 10% 40%;
-	padding: 15px 25px;
+	padding: 10px 25px 40px 35px;
 	position: relative;
 }
 
@@ -273,6 +273,7 @@ h6{
 	display: flex;
 	justify-content: space-evenly;
 	background-color: var(--previewShadow);
+	padding-bottom: 25px;
 }
 
 .social-links{
@@ -379,6 +380,4 @@ h6{
 
 .right-column{
 	justify-content: center;
-}
-
-}
+}}

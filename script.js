@@ -21,19 +21,19 @@ for (var i=0; themeDots.length > i; i++){
 
 function setTheme(mode){
 	if(mode == 'light'){
-		document.getElementById('theme-style').href = 'style.css'
+		document.getElementById('theme-style').href = './themes/style.css'
 	}
 
 	if(mode == 'pink'){
-		document.getElementById('theme-style').href = 'pink.css'
+		document.getElementById('theme-style').href = './themes/pink.css'
 	}
 
 	if(mode == 'green'){
-		document.getElementById('theme-style').href = 'green.css'
+		document.getElementById('theme-style').href = './themes/green.css'
 	}
 
 	if(mode == 'orange'){
-		document.getElementById('theme-style').href = 'orange.css'
+		document.getElementById('theme-style').href = './themes/orange.css'
 	}
 
 	localStorage.setItem('theme', mode)
